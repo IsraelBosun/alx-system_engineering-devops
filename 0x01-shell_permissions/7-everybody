@@ -1,0 +1,3 @@
+#!/bin/bash
+./add_permissions.sh
+

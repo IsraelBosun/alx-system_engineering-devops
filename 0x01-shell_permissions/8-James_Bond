@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+if [ -e hello ]; then chmod 007 hello; echo "Permissions of hello set as requested"; else echo "File hello does not exist in the current directory"; fi
+
