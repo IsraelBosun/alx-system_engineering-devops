@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Local Variables:\n$(set | grep -v 'BASH_EXECUTION_STRING\|BASH_LINENO\|BASH_SOURCE\|BASH_VERSINFO\|EUID\|PPID\|SHELLOPTS\|UID')\nEnvironment Variables:\n$(printenv)\nFunctions:\n$(declare -F | awk '{print $3}')"
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+result=$((128 + $TRUEKNOWLEDGE))
+echo $result
+
